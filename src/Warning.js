@@ -1,3 +1,10 @@
 import React from 'react'
 
-export default () => <span className={'warning'}>Take it easy!</span>
+class Warning extends React.Component {
+  render() {
+    return(
+    <span className={'warning'}>Take it easy!</span>
+    )
+  }
+}
+export default Warning;
